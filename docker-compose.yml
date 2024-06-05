@@ -25,7 +25,7 @@ services:
     volumes:
       - /config:/config
     ports:
-      - 1443:443  # Use a different host port (e.g., 1443) for HTTPS
+      - 8888:443  # Use a different host port (e.g., 1443) for HTTPS
     networks:
       - guacamole-letsencrypt
 
